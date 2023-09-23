@@ -1,7 +1,7 @@
 package com.example.Login_Registro_Spring.controller;
 
-import com.example.Login_Registro_Spring.entity.Trilha;
-import com.example.Login_Registro_Spring.repository.TrilhaRepository;
+import com.example.Login_Registro_Spring.model.dao.Trilha;
+import com.example.Login_Registro_Spring.model.repository.TrilhaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,7 @@
 package com.example.Login_Registro_Spring.service;
 
-import com.example.Login_Registro_Spring.entity.Trilha;
-import com.example.Login_Registro_Spring.repository.TrilhaRepository;
+import com.example.Login_Registro_Spring.model.dao.Trilha;
+import com.example.Login_Registro_Spring.model.repository.TrilhaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;

@@ -1,8 +1,8 @@
 package com.example.Login_Registro_Spring.security;
 
-import com.example.Login_Registro_Spring.entity.Role;
-import com.example.Login_Registro_Spring.entity.User;
-import com.example.Login_Registro_Spring.repository.UserRepository;
+import com.example.Login_Registro_Spring.model.dao.Role;
+import com.example.Login_Registro_Spring.model.dao.User;
+import com.example.Login_Registro_Spring.model.repository.UserRepository;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

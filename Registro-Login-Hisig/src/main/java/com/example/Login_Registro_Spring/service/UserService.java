@@ -1,7 +1,7 @@
 package com.example.Login_Registro_Spring.service;
 
-import com.example.Login_Registro_Spring.dto.UserDto;
-import com.example.Login_Registro_Spring.entity.User;
+import com.example.Login_Registro_Spring.model.dto.UserDto;
+import com.example.Login_Registro_Spring.model.dao.User;
 
 import java.util.List;
 

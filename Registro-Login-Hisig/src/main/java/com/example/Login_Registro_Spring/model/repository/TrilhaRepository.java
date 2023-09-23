@@ -1,6 +1,6 @@
-package com.example.Login_Registro_Spring.repository;
+package com.example.Login_Registro_Spring.model.repository;
 
-import com.example.Login_Registro_Spring.entity.Trilha;
+import com.example.Login_Registro_Spring.model.dao.Trilha;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

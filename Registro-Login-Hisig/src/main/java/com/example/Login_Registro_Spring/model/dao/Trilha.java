@@ -1,4 +1,4 @@
-package com.example.Login_Registro_Spring.entity;
+package com.example.Login_Registro_Spring.model.dao;
 
 import jakarta.persistence.*;
 import lombok.Getter;

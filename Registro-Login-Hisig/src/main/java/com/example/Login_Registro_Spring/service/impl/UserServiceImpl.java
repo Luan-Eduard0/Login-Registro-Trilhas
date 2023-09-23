@@ -1,10 +1,10 @@
 package com.example.Login_Registro_Spring.service.impl;
 
-import com.example.Login_Registro_Spring.dto.UserDto;
-import com.example.Login_Registro_Spring.entity.Role;
-import com.example.Login_Registro_Spring.entity.User;
-import com.example.Login_Registro_Spring.repository.RoleRepository;
-import com.example.Login_Registro_Spring.repository.UserRepository;
+import com.example.Login_Registro_Spring.model.dto.UserDto;
+import com.example.Login_Registro_Spring.model.dao.Role;
+import com.example.Login_Registro_Spring.model.dao.User;
+import com.example.Login_Registro_Spring.model.repository.RoleRepository;
+import com.example.Login_Registro_Spring.model.repository.UserRepository;
 import com.example.Login_Registro_Spring.service.UserService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
